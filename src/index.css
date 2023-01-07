@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+* {
+  margin: 0;
+  font-family: Quicksand;
+  color: #333;
+}
+
+/*Navbar css*/
+.navbar{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 70%;
+  border-bottom: 1px solid #e2e0e0;
+  margin: auto;
+}
+.navbar h1{
+  color: #f1356d;
+  font-size: 40px;
+}
+.navbar .links{
+  margin-left: auto;
+}
+.navbar a{
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  font-size: 20px;
+}
+.navbar a:hover{
+  color: #f1356d;
+}
+.content{
+  max-width: 65%;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/*blog-preview css*/
+.blog-preview{
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+  border-radius: 10px;
+}
+.blog-preview:hover{
+  box-shadow: 3px 4px 5px rgba(0,0,0,0.1);
+}
+.blog-preview h2{
+  font-size: 28px;
+  margin-bottom: 12px;
+  color: #f1356d;
+}
+.blog-preview a{
+  text-decoration: none;
+}
+
+/* blog-details css */
+.blog-details h2{
+  font-size: 28px;
+  color: #f1356d;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.blog-details div{
+  font-size: 18px;
+  margin: 20px auto;
+}
+.blog-details p{
+  font-style: italic;
+  font-weight: bold;
+}
+.blog-details button{
+  background-color: #f1356d;
+  color: #fff;
+  font-size: 16px;
+  border: 0;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* create css */
+.create{
+  max-width: 550px;
+  margin: auto;
+  text-align: center;
+}
+.create label{
+  font-size: 18px;
+  text-align: left;
+  display: block;
+}
+.create h2{
+  font-size: 28px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+.create input, .create textarea{
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px auto;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: block;
+}
+.create button{
+  background-color: #f1356d;
+  color: #fff;
+  font-size: 16px;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* notfound css */
+.not-found h2{
+  margin-top: 80px;
+}
+.not-found p{
+  margin-bottom: 10px;
+}
+
