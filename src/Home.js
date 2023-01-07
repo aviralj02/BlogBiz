@@ -3,7 +3,7 @@ import useFetch from "./useFetch";
 
 const Home = () => {
     
-    const { data: blogs, isPending, error } = useFetch(process.env.URL);
+    const { data: blogs, isPending, error } = useFetch(process.env.REACT_APP_URL);
 
     return ( 
         <div className="home">
