@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 
 const BlogDetails = () => {
     const { id } = useParams();
-    const { data: blog, isPending, error } = useFetch(process.env.REACT_APP_URL + id);
+    const { data: blog, isPending, error } = useFetch(process.env.URL + id);
     const navigate = useNavigate();
 
     const handleDelete = () => {
