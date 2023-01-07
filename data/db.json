@@ -1,12 +1,6 @@
 {
   "blogs": [
     {
-      "title": "Web Dev top tips",
-      "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-      "author": "Youtube",
-      "id": 2
-    },
-    {
       "title": "My Sample Blog",
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eget aliquam mauris. Etiam luctus semper ligula et eleifend. Aenean massa velit, imperdiet quis tincidunt eu, ultrices sit amet diam. Duis quis iaculis quam. Nunc a elit elit. Praesent interdum semper vestibulum. In lacinia tellus ut erat suscipit, ut fringilla felis porttitor. Proin a velit quis elit finibus placerat vel vel eros. Morbi eget nulla sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt malesuada orci hendrerit vestibulum. Vestibulum tempus ultrices mauris, eu pulvinar orci auctor ac. Suspendisse scelerisque imperdiet nunc in vehicula. Donec vitae euismod odio. Vivamus faucibus ultrices ex, vel imperdiet magna. Ut convallis nibh vel consectetur faucibus.\n\nMauris ut sapien nulla. Sed vitae rutrum orci. Quisque at erat vel arcu vestibulum consectetur id nec eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas finibus placerat justo at malesuada. In sodales quam vel libero vehicula blandit. Aliquam dolor tortor, pulvinar vehicula iaculis quis, iaculis nec risus. Suspendisse bibendum condimentum orci, eu semper lectus imperdiet nec. Nam et feugiat ex. Cras pretium nibh vitae arcu mollis, non dignissim magna malesuada. Suspendisse sit amet porttitor metus, et pharetra velit.",
       "author": "Gazy",

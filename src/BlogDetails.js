@@ -4,11 +4,11 @@ import { useNavigate } from "react-router-dom";
 
 const BlogDetails = () => {
     const { id } = useParams();
-    const { data: blog, isPending, error } = useFetch('http://localhost:8000/blogs/' + id);
+    const { data: blog, isPending, error } = useFetch(process.env.REACT_APP_URL + id);
     const navigate = useNavigate();
 
     const handleDelete = () => {
-        fetch('http://localhost:8000/blogs/'+blog.id,{
+        fetch(process.env.REACT_APP_URL + blog.id,{
             method: 'DELETE',
         }).then(() => {
             navigate('/');
