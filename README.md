@@ -9,3 +9,9 @@ BlogBiz is a web application that allows users to browse, add, and remove blogs
 ![BlogBiz Home](preview/BlogBiz.png)
 ![BlogBiz Details](preview/BlogDetails.png)
 ![BlogBiz New Blog](preview/NewBlogPage.png)
+
+## 💻 Local Setup and Installation
+* Clone the repo and install dependencies
+```
+$npm install
+```
